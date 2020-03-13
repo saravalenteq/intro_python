@@ -12,8 +12,8 @@ dt = 43.5/60
 veloc_med = ds/dt
 tempm = 1/veloc_med
 
-print('O tempo medio por milha foi de:', tempm)
-print('A velocidade media em milhas por hora foi:', veloc_med)
+print('O tempo medio por milha foi de:', tempm, 'h/milha')
+print('A velocidade media em milhas por hora foi:', veloc_med, 'milhas/h')
 
 
 #Segundo Exercício: Desde sua varanda você escuta o som do primeiro fogo artificial do reveillon 3 segundos depois de ver a luz, qual a distância? (o som tem velocidade 343 m/s e a luz %$3\times 10^8$% m/s). 
@@ -26,7 +26,7 @@ dt=3
 
 ds = vel_som*dt
 
-print('a distancia eh de:', ds)
+print('a distancia eh de:', ds, 'm')
 
 #Terceiro Exercício:Ache os zeros da função: y = 3 *x^2 - 4 *x -10 
 
@@ -60,7 +60,7 @@ hipotenusa = sombra/alt
 
 angulo = math.degrees(math.atan(math.radians(hipotenusa)))
 
-print(' O angulo zenital eh:', angulo) 
+print(' O angulo zenital eh:', angulo,'°') 
 
 
 #Quinto Exercício: Calcule o seu %$IMC = \dfrac{M}{A^2}$% (com a massa em Kg e a altura em metros). Um valor saudável estara --em geral-- entre 20-25. Um bebê de 6 meses "gorducho" tem 70 cm de "comprimento" e 11 kg de massa, qual o IMC dele? 
@@ -90,8 +90,7 @@ g = 9.81
 
 t = math.sqrt((2*(sfim-sini)/g))
 
-print('O tempo que o objeto demora pra cair eh de:',t)
-
+print('O tempo que o objeto demora pra cair eh de:',t,'s')
 
 
 
