@@ -56,9 +56,9 @@ print('Exercício 4:')
 
 alt = 5
 sombra = 0.5
-hipotenusa = sombra/alt
+tan_teta = sombra/alt
 
-angulo = math.degrees(math.atan(math.radians(hipotenusa)))
+angulo = math.degrees(math.atan(math.radians(tan_teta)))
 
 print(' O angulo zenital eh:', angulo,'°') 
 
